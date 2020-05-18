@@ -37,7 +37,7 @@ while True:
   screen.fill(bg)
   time.sleep(0.1)
 
-  ev = pygame.event.get()
+  ev = pygame.event.get() 
 
   for event in ev:
     if event.type == pygame.KEYDOWN:
